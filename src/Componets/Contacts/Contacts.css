@@ -1,6 +1,6 @@
 .contacts-wrapper {
     width: 500px;
-    background-color: #17d05a;
+    background-color: #fff;
     border-radius: 10px;
     padding: 20px 10px;
     margin: 50px auto;
@@ -14,8 +14,8 @@
 .contacts { margin-top: 20px; }
 
 .contact {
-    background-color: #05aa05;
-    border-radius: 15px;
+    border-radius: 10px;
+    border: 1px solid #05aa05;
     padding: 10px 20px;
     margin: 5px;
     display: flex;
@@ -24,9 +24,8 @@
 }
 #search-input {
     border-radius: 10px;
-    background-color: #fff;
+    border: 1px solid #17d05a;
     margin: 0 5px;
-    border: none;
     outline: none;
     padding: 7px;
     width: 180px;
